@@ -10,12 +10,12 @@
                 {
                   "value": "5",
                   "text": "Catégorie 1-1",
-                  "icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C1-1"
+                  "icon": "http://placehold.jp/24/005699/ccc200/25x25.png?text=C1-1"
                 },
                 {
                   "value": "6",
                   "text": "Catégorie 1-2",
-                  "icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C1-2"
+                  "icon": "http://placehold.jp/24/005699/ccc200/25x25.png?text=C1-2"
                 }
               ]
             },
@@ -33,17 +33,17 @@
                 {
                   "value": "7",
                   "text": "Catégorie 3-1",
-                  "icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C3-1"
+                  "icon": "http://placehold.jp/24/005699/ccc200/25x25.png?text=C3-1"
                 },
                 {
                   "value": "8",
                   "text": "Catégorie 3-2",
-                  "icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C3-2"
+                  "icon": "http://placehold.jp/24/005699/ccc200/25x25.png?text=C3-2"
                 },
                 {
                   "value": "9",
                   "text": "Catégorie 3-3",
-                  "icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C3-3"
+                  "icon": "http://placehold.jp/24/005699/ccc200/25x25.png?text=C3-3"
                 }
               ]
             },
