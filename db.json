@@ -1,19 +1,11 @@
 {
-	"get": [{
+  "parents": 
+  [
+    {
 			"id": 1,
 			"name": "Catégorie 1",
 			"icon": "http://placehold.jp/24/006699/cccc00/50x50.png?text=C1",
-			"children": [{
-					"id": 5,
-					"name": "Catégorie 1-1",
-					"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-1"
-				},
-				{
-					"id": 6,
-					"name": "Catégorie 1-2",
-					"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-2"
-				}
-			]
+			"children": [1, 2]
 		},
 		{
 			"id": 2,
@@ -25,22 +17,7 @@
 			"id": 3,
 			"name": "Catégorie 3",
 			"icon": "http://placehold.jp/24/006693/c5cc00/50x50.png?text=C3",
-			"children": [{
-					"id": 7,
-					"name": "Catégorie 3-1",
-					"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-1"
-				},
-				{
-					"id": 8,
-					"name": "Catégorie 3-2",
-					"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-2"
-				},
-				{
-					"id": 9,
-					"name": "Catégorie 3-3",
-					"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-3"
-				}
-			]
+			"children": [3, 4, 5]
 		},
 		{
 			"id": 4,
@@ -49,56 +26,34 @@
 			"children": []
 		}
 	],
-	"set": [{
+  "children": 
+  [
+		{
 			"id": 1,
-			"parent": null,
-			"name": "Catégorie 1",
-			"icon": "http://placehold.jp/24/006699/cccc00/50x50.png?text=C1"
-		},
-		{
-			"id": 2,
-			"parent": null,
-			"name": "Catégorie 2",
-			"icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C2"
-		},
-		{
-			"id": 3,
-			"parent": null,
-			"name": "Catégorie 3",
-			"icon": "http://placehold.jp/24/006693/c5cc00/50x50.png?text=C3"
-		},
-		{
-			"id": 4,
-			"parent": null,
-			"name": "Catégorie 4",
-			"icon": "http://placehold.jp/24/056693/25cc00/50x50.png?text=C4"
-		},
-		{
-			"id": 5,
 			"parent": 1,
 			"name": "Catégorie 1-1",
 			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-1"
 		},
 		{
-			"id": 6,
+			"id": 2,
 			"parent": 1,
 			"name": "Catégorie 1-2",
 			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-2"
 		},
 		{
-			"id": 7,
+			"id": 3,
 			"parent": 3,
 			"name": "Catégorie 3-1",
 			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-1"
 		},
 		{
-			"id": 8,
+			"id": 4,
 			"parent": 3,
 			"name": "Catégorie 3-2",
 			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-2"
 		},
 		{
-			"id": 9,
+			"id": 5,
 			"parent": 3,
 			"name": "Catégorie 3-3",
 			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-3"
