@@ -1,33 +1,33 @@
 {
   "categories": {
-    "parents": 
+    "categories": 
     [
       {
         "id": 1,
         "name": "Catégorie 1",
         "icon": "http://placehold.jp/24/006699/cccc00/50x50.png?text=C1",
-        "children": [1, 2]
+        "subCategories": [1, 2]
       },
       {
         "id": 2,
         "name": "Catégorie 2",
         "icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C2",
-        "children": []
+        "subCategories": []
       },
       {
         "id": 3,
         "name": "Catégorie 3",
         "icon": "http://placehold.jp/24/006693/c5cc00/50x50.png?text=C3",
-        "children": [3, 4, 5]
+        "subCategories": [3, 4, 5]
       },
       {
         "id": 4,
         "name": "Catégorie 4",
         "icon": "http://placehold.jp/24/056693/25cc00/50x50.png?text=C4",
-        "children": []
+        "subCategories": []
       }
     ],
-    "children": 
+    "subCategories": 
     [
       {
         "id": 1,
