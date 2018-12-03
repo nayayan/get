@@ -2,28 +2,28 @@
   "categories": {
     "masters": [{
         "id": 1,
-        "position": 1,
+        "position": 0,
         "name": "Catégorie 1",
         "icon": "http://placehold.jp/24/006699/cccc00/50x50.png?text=C1",
         "slaves": [1, 2]
       },
       {
         "id": 2,
-        "position": 4,
+        "position": 3,
         "name": "Catégorie 2",
         "icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C2",
         "slaves": []
       },
       {
         "id": 3,
-        "position": 3,
+        "position": 2,
         "name": "Catégorie 3",
         "icon": "http://placehold.jp/24/006693/c5cc00/50x50.png?text=C3",
         "slaves": [3, 4, 5]
       },
       {
         "id": 4,
-        "position": 2,
+        "position": 1,
         "name": "Catégorie 4",
         "icon": "http://placehold.jp/24/056693/25cc00/50x50.png?text=C4",
         "slaves": []
@@ -31,14 +31,14 @@
     ],
     "slaves": [{
         "id": 1,
-        "position": 2,
+        "position": 1,
         "parent": 1,
         "name": "Catégorie 1-1",
         "icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-1"
       },
       {
         "id": 2,
-        "position": 1,
+        "position": 0,
         "parent": 1,
         "name": "Catégorie 1-2",
         "icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-2"
